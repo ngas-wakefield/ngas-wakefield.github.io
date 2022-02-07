@@ -1,11 +1,11 @@
-body {
-    background-color: powderblue;
+body { background-color: #EAE6FF;
+    
   }
-  h1 {
-    color: blue;
+  h1 { color: 1D1D20;
+    
   }
-  p {
-    color: red;
+  p { background-color: #FBFFE6;
+    
   }
 
 
@@ -13,5 +13,5 @@ body {
 
 
 .intro {
-    background-color: yellow;
+    
   }
