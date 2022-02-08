@@ -416,3 +416,74 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+
+
+
+
+/* Webfont: Tuku */@font-face {
+  font-family: 'Tuku';
+  src: url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf'); /* IE9 Compat Modes */
+  src: url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('woff'), /* Modern Browsers */
+       url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('truetype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+.fontchange {
+font-family: 'Tuku';
+
+}
+
+/* The slider itself */
+.slider {
+-webkit-appearance: none;  /* Override default CSS styles */
+appearance: none;
+width: 50%; /* Full-width */
+height: 15px; /* Specified height */
+border-radius: 5px;
+background: #d3d3d3; /* Grey background */
+outline: none; /* Remove outline */
+opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+-webkit-transition: .2s; /* 0.2 seconds transition on hover */
+transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none; /* Override default look */
+appearance: none;
+width: 25px; /* Set a specific slider handle width */
+height: 25px; /* Slider handle height */
+border-radius: 50%;
+background: #4CAF50; /* Green background */
+cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+width: 25px; /* Set a specific slider handle width */
+height: 25px; /* Slider handle height */
+border-radius: 50%;
+background: #4CAF50; /* Green background */
+cursor: pointer; /* Cursor on hover */
+}
+
+
+
+.bold {
+  font-family:  'Tuku';
+  src: url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf'); /* IE9 Compat Modes */
+  src: url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('embedded-opentype'), /* IE6-IE8 */
+       url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('woff'), /* Modern Browsers */
+       url('https://static1.squarespace.com/static/5ec362cd27439658a289f8cd/t/5ec3838ba8793416a3125892/1589871499507/Tuku.otf') format('truetype'); /* Safari, Android, iOS */
+           font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  font-size: 150px;
+}
