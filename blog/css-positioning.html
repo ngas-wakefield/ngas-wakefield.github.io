@@ -69,7 +69,7 @@
         <a class="button button-primary" href="/blog.html">Blog</a>
         <a class="button button-primary" href="/about.html">About</a>
       
-      
+     
 
 <h4>What are the differences between relative, absolute, and fixed positioning?</h4>
 
@@ -80,22 +80,71 @@
 <li>Relative</li>
 <li>Absolute</li>
 <li>Fixed</li>
-<li>Sticky</li>
 
 </ul>
 
-<p>CSS positioning keywords</p>
+
+<p>Static positioning is the default setting of elements on a page.</p>
+
+<p>Relative positioning is when you want to move an element from its static position.</p>
+
+<p>Relative positioning is not commonly used for top, right, left, bottom positioning as it moves your element out of the document flow (it does not remove it) and if there are other child elements they do not follow.</p>
+
+<p><div class="parent">
+  Parent
+  <div class="child1">child1</div>
+  <div class="child2">child2</div>
+   <div class="child3">child3</div>
+</div>
+</p>
+
+<p>The only time you may use relative position is when you are wanting a child element to move absolutely relative to the parent element. </p> 
+
+<p>To do this the parent has to be in relative position and the child in absolute position.
+  
+  <p>Absolute positioning is similar to relative positioning except it completely removes itself from the document flow and everything else will move into it's position like it doesn't exist.</p>
+
+<p><div class="parent2">
+  Parent2
+  <div class="kid1">kid1</div>
+  <div class="kid2">kid2</div>
+   <div class="kid3">kid3</div>
+</div>
+</p>
 
 
-      
-    
-  </div>
+<div class="absolute-child">An absolute element can go anywhere within the browser like a child without a parent</div>
+
+
+<p><div class="fixed-position">This is a fixed position</div></p>
+
+<p>A fixed position is where a element can remain fixed in the same place as you are scrolling through a page.</p>
+
+
+
+
+
+
+<p class="codepen" data-height="300" data-default-tab="css" data-slug-hash="gOXWpVB" data-user="ngaswakefield" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/ngaswakefield/pen/gOXWpVB">
+  Relative position</a> by Ngahine Wakefield (<a href="https://codepen.io/ngaswakefield">@ngaswakefield</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+  
+
+
+
+
+
+
+
+</body>
+</html>
 
 
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
-
-
-</html>
