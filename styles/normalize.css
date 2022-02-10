@@ -181,11 +181,130 @@ sub {
  * Remove border when inside `a` element in IE 8/9/10.
  */
 
+
+/*CSS positioning example*/
+
+
+
+.parent {
+
+}
+.child1{
+  position: relative;
+  right: 15px;
+}
+
+.parent2{
+  position: relative;  
+
+}
+.kid1 {
+  position: absolute;
+  left: 10px;
+    
+  }  
+
+
+  .absolute-child {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    padding: 5px;
+    background-color: rgb(166, 153, 116);
+    
+  }
+  
+  
+  .fixed-position {
+   position: fixed;
+   top: 0px;
+   left: 10%;
+  padding: 5px;
+  background-color: rgb(93, 106, 166);
+  
+}
+
+
+.parent {
+  padding: 5px;
+  background-color: rgb(93, 106, 166);
+  
+}
+
+.child1 {
+ padding: 5px;
+ background-color: rgb(160, 175, 242); 
+  
+}
+
+.child2 {
+  padding: 5px;
+  background-color: rgb(93, 166, 112);
+  
+}
+
+.child3 {
+  padding: 5px;
+  background-color: rgb(166, 153, 116);
+  
+}
+
+
+.parent2 {
+  padding: 5px;
+  background-color: rgb(93, 106, 166);
+  
+}
+
+.kid1 {
+ padding: 5px;
+ background-color: rgb(160, 175, 242); 
+  
+}
+
+.kid2 {
+  padding: 5px;
+  background-color: rgb(93, 166, 112);
+  
+}
+
+.kid3 {
+  padding: 5px;
+  background-color: rgb(166, 153, 116);
+  
+}
+
+
+
+
+/*CSS positioning example end*/
+
+
 img {
   border: 0;
   width: 100%;
   height: auto;
+  
+  
 }
+
+
+  .cssbox {
+    width: 200px; /* I took the width from your post and placed it in css */
+    height: 200px;
+    float: right;
+    position: absolute;
+    left: 80%;
+    
+ }
+ 
+ /* This will style any <img> element in .parent div 
+ .cssbox img {
+    height: 100%;
+    width: 100%;
+ }
+
+}*/
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
