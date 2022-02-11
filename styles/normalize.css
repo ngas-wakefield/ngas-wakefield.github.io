@@ -10,6 +10,7 @@ html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  
 }
 
 /**
@@ -17,7 +18,9 @@ html {
  */
 
 body {
-  margin: 0;
+  
+  
+  margin: opx;
 }
 
 /* HTML5 display definitions
@@ -185,10 +188,6 @@ sub {
 /*CSS positioning example*/
 
 
-
-.parent {
-
-}
 .child1{
   position: relative;
   right: 15px;
@@ -378,6 +377,7 @@ textarea {
   color: inherit; /* 1 */
   font: inherit; /* 2 */
   margin: 0; /* 3 */
+  
 }
 
 /**
