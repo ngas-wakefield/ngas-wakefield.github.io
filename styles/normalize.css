@@ -13,7 +13,7 @@
 
   font-family: Tuku; 
   font-size: 15vw; 
-  line-height: 72.1%;
+  line-height: 72.15%;
 
 
  }
@@ -23,6 +23,12 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   
+}
+
+.pindex {
+
+padding-right: 150px;
+
 }
 
 /**
