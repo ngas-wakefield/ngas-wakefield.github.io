@@ -6,6 +6,18 @@
  *    user zoom.
  */
 
+
+
+
+ .tuku {
+
+  font-family: Tuku; 
+  font-size: 15vw; 
+  line-height: 72.1%;
+
+
+ }
+
 html {
   font-family: sans-serif; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
