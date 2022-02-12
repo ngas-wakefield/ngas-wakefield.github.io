@@ -10,7 +10,6 @@
 
 /* Table of contents
 ––––––––––––––––––––––––––––––––––––––––––––––––––
-- Nav bar
 - Grid
 - Base Styles
 - Typography
@@ -25,6 +24,9 @@
 - Clearing
 - Media Queries
 */
+
+
+
 
 
 
@@ -442,8 +444,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
-
-
-
-

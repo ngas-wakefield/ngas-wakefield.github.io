@@ -21,7 +21,9 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../styles/normalize.css">
   <link rel="stylesheet" href="../styles/skeleton.css">
-
+  <link rel="stylesheet" href="../styles/navbar.css">
+  
+  <script src="/script.js"></script>
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
@@ -35,9 +37,16 @@
    
         <p style="font-family: Tuku; font-size: 15vw; line-height: 72.1%;">ngahine </p>
 
-        <a class="button button-primary" href="/index.html">Home</a>
-        <a class="button button-primary" href="/blog.html">Blog</a>
-        <a class="button button-primary" href="/about.html">About</a>
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="toggleOpen()">×</a>
+          <a href="/index.html">Home</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/about.html">About</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="toggleOpen()">☰</button>  
+        </div>
 
         </div>
         </div>
