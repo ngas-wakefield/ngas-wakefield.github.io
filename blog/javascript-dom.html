@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Javascript & DOM</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../styles/normalize.css">
+  <link rel="stylesheet" href="../styles/skeleton.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+  
+  <script src="/script.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="one-full column" style="margin-top: 10%">
+
+     
+        <p class="tuku" >ngahine 
+        </p>
+     
+        <ul class="breadcrumb">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li>Javascript & DOM</li>
+        </ul>
+
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="toggleOpen()">×</a>
+          <a href="/index.html">Home</a>
+          <a href="/blog.html">Blog</a>
+          <a href="/about.html">About</a>
+          <a href="/tuku/">Tuku</a>
+        </div>
+
+        <div id="main">
+          <button class="openbtn" onclick="toggleOpen()">☰</button>  
+        </div>
+
+      
+        <h2>Javascript & the DOM</h2>
+        
+       <h4>HTML & CSS - What is the difference?</h4>
+       <p>HTML is how you will begin the structural content of the document or web page, CSS is how you want to manipulate the display and design elements of the HTML. Think of post-it notes, HTML would be the information on the notes and the "wall" (webpage). CSS would be the arrangement, font, and appearance of the notes. Taking it a bit further you can use Javascript to make the post-it notes interactive for the user and provide different functions.</p>
+
+    
+
+<h4>Control flow & Loops</h4>
+
+       <p>A computer is always reading code from the top to bottom, this is how the control flow of Javascript works, looping is how you can manipulate this flow.</p>
+       <p>A real life example of this would be going to the fridge, is there food? If yes take food, if else there isn't you have two options, go to the supermarket or close fridge. Then repeat the first statement again. </p>
+
+
+
+       <img src="/images/javascript-while.svg" style="max-width:208px;width:100%">
+
+
+       <h4>Document Object Model (DOM)</h4>
+       <img src="/images/Document-Object-Model-in-JavaScript.png"  style="max-width:488px;width:100%">
+       
+              <p>Behind a webpage or HTML document there is a hierarchichal tree or nodes that holds all the different elements and objects. The DOM is a way to manipulate these elements by adding, removing and modifying parts of the document. </p>
+       
+
+
+
+       <h4>Objects vs Arrays</h4>
+       <p>There are different ways you can access content on a webpage depending on the type of element it is. Objects are generally accessed through strings or symbols and arrays can be accessed by their index or the order they are in. Depending on the purpose of the task or data will determine which variable would be suitable.</p>
+
+       <p>With an object you would be accessing the data through the string or name.</p>
+       <pre>
+        <code>
+          let cars = 
+          {
+            name: "Nissan",
+            colour: "blue",
+            year: "2014"
+          }
+        </code></pre>
+
+        With arrays you will be accessing the data through the order they are in, the index also starts at 0.
+       <pre>
+        <code>
+          let cars = 
+          ['Nissan', 'Toyota', 'BMW']
+    
+        </code></pre>
+
+
+        
+       
+      
+        
+
+
+
+
+
+
+
+
+
+    <h4>Functions</h4>
+
+    <p>As a developer you're going to want to perform many different task at the same time. Functions are used to make it easier to run scripts without repeating code over and over. </p>
+<pre>
+    <code>
+      function welcome() {
+        console.log('Kia ora!');
+    }
+    
+    welcome();
+
+    </code></pre>
+      
+      </div>
+    </div>
+
+      </div>
+    </div>
+
+
+    
+ 
+      
+    
+  </div>
