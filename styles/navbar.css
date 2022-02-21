@@ -86,3 +86,24 @@ ul.breadcrumb li a:hover {
   color: #01447e;
   text-decoration: underline;
 }
+
+
+/* scroll top button */
+
+
+#myTopBtn {
+background-color: #1EAEDB;
+font-size: 20px;
+color: white;
+position: absolute;
+
+right: 30px;
+
+
+
+}
+
+#myTopBtn:hover {
+  background-color: #555;
+  color: white;
+}
