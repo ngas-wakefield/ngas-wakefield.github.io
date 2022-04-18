@@ -23,9 +23,33 @@
   font-size: 15px;
 }
 
-/*CONTAINER CSS*/
+/*RESPONSIVE WEB CSS*/
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+}
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .container {
+    width: 80%; }
+  .column,
+  .columns {
+    margin-left: 4%; }
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; }
 
 
+
+    @media (min-width: 1200px) {
+      .container {
+        width: 85%;
+        padding: 0; }
+    }
 
 
 body { background-color: #EAE6FF;
@@ -63,6 +87,4 @@ a:link {
 /* LINKS CSS */
 
 
-.intro {
-    
-  }
+}
