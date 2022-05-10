@@ -416,7 +416,7 @@ there.
 @media (min-width: 320px) {
 .container { 
 
-  background-color: purple;
+  /* background-color: purple; */
  
 }
 
@@ -437,7 +437,7 @@ there.
 /* Larger than tablet */
 @media (width: 768px) {}
 .tuku{ 
-  background-color: red; 
+  /* background-color: red;  */
 
 }
  
@@ -450,7 +450,7 @@ there.
 
   .tuku { 
   
-    background-color: grey;
+    /* background-color: grey; */
  
   }
 }
